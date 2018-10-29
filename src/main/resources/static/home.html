@@ -95,6 +95,7 @@ function deleteFile(file_id){
         url: "accounts/"+account_id+"/files/"+file_id,
         type: 'DELETE',
         success :function(data) {
+        document.getElementById('error').innerHTML="File deleted successfully...!!";
           display_table();
           $('#spinner').hide();
        }
