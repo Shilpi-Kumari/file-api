@@ -13,12 +13,12 @@ File Vault is a web application which is hosted on AWS cloud. This application p
 This is a 3-tier web application which uses AWS cloud services to provide a highly scalable, available and cost-effective solution. It uses AWS S3 to store the data. It is also using AWS autoscaling which will help in resource elasticity during peak and low user load on File Vault application. AWS Lambda and SNS is used to inform admin if users are uploading files with more than 8MB size. So that admin can take appropriate action on increasing the limit on file size upload if average is going more than 8MB. Cloud Watch is logging this activity and admin can check the details in the logs.
 
 ### Features List:
-> 1.	Upload files to S3 
-> 2.	Delete files from S3
-> 3.	Download files from S3 using Cloud Front
+> 1.	Upload files
+> 2.	Delete files
+> 3.	Download files
 > 4.	Update the already uploaded file
 > 5.	List the files
-> 6.  Admin View
+> 6. Admin View
 
  ### Admin Flow:
 
@@ -52,10 +52,14 @@ This is a 3-tier web application which uses AWS cloud services to provide a high
 
 ### Sample Screenshots:
 
+1. Login Page
 ![loginpage](https://user-images.githubusercontent.com/42687329/47689757-7fce1100-dba8-11e8-9ee9-c04435ac7394.png)
 <br>
+2. Sign Up Page
 ![signup](https://user-images.githubusercontent.com/42687329/47689702-367dc180-dba8-11e8-9f23-b89847d7e775.png)
 
+3. List Files
 ![homepage](https://user-images.githubusercontent.com/42687329/47689785-a5f3b100-dba8-11e8-828e-2b14de87f088.png)
 
+4. Admin View
 
