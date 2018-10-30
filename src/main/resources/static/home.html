@@ -143,7 +143,7 @@ function display_table(){
                  cell1.innerHTML = val.description;
                  cell2.innerHTML = val.uploadtime;
                  cell3.innerHTML = val.updatetime;
-                 cell4.innerHTML = "<a href=http://"+val.cf_url+"><i class='fa fa-download' style='font-size:36px;color:green'></i></a>";
+                 cell4.innerHTML = "<a href=http://"+encodeURI(val.cf_url)+"><i class='fa fa-download' style='font-size:36px;color:green'></i></a>";
                  cell5.innerHTML = "<a href=javascript:void(0) onClick=deleteFile('"+val.id+"')><i class='fa fa-trash' style='font-size:36px;color:red'></i></a>";
                  cell6.innerHTML = "<a href=javascript:void(0) onClick=updateFile('"+encodeURIComponent(val.description)+"')><i class='fa fa-edit' style='font-size:36px;color:blue'></i></a>";
                 //TODO

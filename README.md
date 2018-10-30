@@ -52,7 +52,7 @@ Auto scaling policy is set on request queue in ELB. Whenever the request queue i
 Sample Screenshots:
 
 ![loginpage](https://user-images.githubusercontent.com/42687329/47689757-7fce1100-dba8-11e8-9ee9-c04435ac7394.png)
-
+<br>
 ![signup](https://user-images.githubusercontent.com/42687329/47689702-367dc180-dba8-11e8-9f23-b89847d7e775.png)
 
 ![homepage](https://user-images.githubusercontent.com/42687329/47689785-a5f3b100-dba8-11e8-828e-2b14de87f088.png)
