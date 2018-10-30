@@ -49,3 +49,9 @@ Auto scaling policy is set on request queue in ELB. Whenever the request queue i
 •	S3 Infrequent Access (IA): Life cycle policies are updated on S3 so that files will be moved to S3 IA after 75 days of object creation.
 •	Amazon Glacier: Files will be moved to Amazon Glacier after 365 days of object creation as content will be not used frequently. It will be archived for one additional year for legal/compliance reasons before it can be deleted from the system.
 •	CloudWatch: CloudWatch is used in this application to see logs for S3 upload on lambda function invocation. It will give the file name and file size of the uploaded files and SNS will be triggered if uploaded file size is more than 8 MB.
+
+Sample Screenshots:
+
+![loginpage](https://user-images.githubusercontent.com/42687329/47689665-00404200-dba8-11e8-86f1-f253adfe2cfe.png)
+
+
