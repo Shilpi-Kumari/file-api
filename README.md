@@ -54,19 +54,19 @@ This is a 3-tier web application which uses AWS cloud services to provide a high
 
 ### Sample Screenshots:
 
-1. Login Page
+- Login Page<br>
 ![loginpage](https://user-images.githubusercontent.com/42687329/47689757-7fce1100-dba8-11e8-9ee9-c04435ac7394.png)
 
-2. Sign Up Page
+- Sign Up Page<br>
 ![signup](https://user-images.githubusercontent.com/42687329/47689702-367dc180-dba8-11e8-9f23-b89847d7e775.png)
 
-3. List Files
+- List Files<br>
 ![homepage](https://user-images.githubusercontent.com/42687329/47689785-a5f3b100-dba8-11e8-828e-2b14de87f088.png)
 
-4. Upload File:
+- Upload File:<br>
 <img width="1440" alt="screen shot 2018-10-30 at 2 28 51 pm" src="https://user-images.githubusercontent.com/42687329/47751877-29b4a880-dc50-11e8-9959-a1a3c0ae651f.png">
-5. Admin View
 
+- Admin View<br>
 ![admin](https://user-images.githubusercontent.com/42687329/47751789-fa05a080-dc4f-11e8-9049-f0cf1294dc93.png)
 
 
