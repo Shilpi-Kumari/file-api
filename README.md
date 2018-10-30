@@ -19,6 +19,9 @@ Features List:
 5.	List the files
 6.  Admin View
 
+File Vault Architecture Diagram:
+
+https://user-images.githubusercontent.com/42687329/47689363-e0f4e500-dba6-11e8-945a-61190c5e37ad.png
 
 AWS Services Used:
 
