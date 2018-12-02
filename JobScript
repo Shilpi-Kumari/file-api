@@ -1,0 +1,11 @@
+//to deploy code on AWS instance from Jenkin Jobs
+
+cd $WORKSPACE
+cp ../properties/application_dev.properties src/main/resources/application.properties
+mvn package
+cd target
+public_ip="$(aws ec2 describe-instances --filters 'Name=tag:stack,Values=development' --query 'Reservations[*].Instances[*].PublicIpAddress' --output=text)"
+echo $public_ip
+scp file-api-0.0.1-SNAPSHOT.jar ubuntu@$public_ip:/home/ubuntu/
+ssh -f ubuntu@$public_ip "pkill -f 'file-api-0.0.1-SNAPSHOT.jar'"
+ssh -f ubuntu@$public_ip "nohup java -jar /home/ubuntu/file-api-0.0.1-SNAPSHOT.jar &"
